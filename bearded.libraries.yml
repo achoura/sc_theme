@@ -1,0 +1,39 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+matchHeight:
+  js:
+    js/libs/jquery.matchHeight-min.js: {}
+
+custom:
+  js:
+    js/dist/app.js: {}
+
+bootstrap-scripts:
+  js:
+    bootstrap/assets/javascripts/bootstrap/affix.js: {}
+    bootstrap/assets/javascripts/bootstrap/alert.js: {}
+    bootstrap/assets/javascripts/bootstrap/button.js: {}
+    bootstrap/assets/javascripts/bootstrap/carousel.js: {}
+    bootstrap/assets/javascripts/bootstrap/collapse.js: {}
+    bootstrap/assets/javascripts/bootstrap/dropdown.js: {}
+    bootstrap/assets/javascripts/bootstrap/modal.js: {}
+    bootstrap/assets/javascripts/bootstrap/tooltip.js: {}
+    bootstrap/assets/javascripts/bootstrap/popover.js: {}
+    bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
+    bootstrap/assets/javascripts/bootstrap/tab.js: {}
+    bootstrap/assets/javascripts/bootstrap/transition.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/jquery.ui
+    - core/jquery.ui.draggable
+    - core/jquery.ui.droppable
+    - core/jquery.ui.sortable
+    - core/jquery.ui.mouse
+    - core/jquery.ui.position
+    - core/drupal
+    - core/drupal.tabledrag
+    - flexslider/flexslider
